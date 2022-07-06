@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <!--link href="./css.css" rel="stylesheet" type="text/css" />
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <script src="./unload.js"></script>
+    <script src="./main.js"></script>
+    <script src="./mapColors.js"></script>
+    <title>plan</title>
+</head>
+<body>
+
+    Выберите этаж:
+    <select id="menu1" onchange='check(this)'>
+        <option value=""></option>
+        <option value="-1">-1</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+  
+    <div id="but">
+        <input type="button" name="nubex" value="Показать" onClick="drawWalls()" />
+    </div>
+    <canvas id="canvas" ></canvas>
+
+
+</body>
+</html>
